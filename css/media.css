@@ -1,0 +1,177 @@
+
+@media screen and (min-width: 1400px) {
+    .project-title{
+        font-size: 28px;
+    }
+    .project-description{
+        font-size: 19px;
+    }
+    .project-link{
+        font-size: 19px;
+    }
+    .header__nav{
+        width: 47%;
+    }
+    .project-link::before{
+        width: 23px;
+        height: 25px;
+    }
+    .contacts{
+        top: -38%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .contacts{
+        top: -34%;
+    }
+}
+@media screen and (min-width: 1700px) {
+    .header__nav-link{
+        font-size: 20px;
+    }
+    .contacts{
+        top: -32%;
+    }
+    .footer__nav-link{
+        font-size: 20px;
+    }
+    .footer__created{
+        font-size: 16px;
+    }
+    .footer__rights{
+        font-size: 16px;
+    }
+    .contacts__form-input::placeholder{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .about-me__name{
+        font-size: 70px;
+    }
+    .about-me__description{
+        font-size: 20px;
+    }
+    .header__nav-link{
+        font-size: 20px;
+    }
+    .contacts{
+        top: -32%;
+    }
+    .footer__nav-link{
+        font-size: 20px;
+    }
+    .skill__name{
+        font-size: 24px;
+    }
+    .skill__number{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .project-title{
+        font-size: 32px;
+    }
+    .project-description{
+        font-size: 20px;
+    }
+    .project-link{
+        font-size: 30px;
+    }
+    .project-link::before{
+        width: 18px;
+        height: 30px;
+    }
+    .header__nav-link{
+        font-size: 22px;
+    }
+    .footer__nav-link{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1399px) {
+    .project-title{
+        font-size: 26px;
+    }
+    .project-description{
+        font-size: 16px;
+    }
+    .project-link{
+        font-size: 17px;
+    }
+    .project-link::before{
+        width: 23px;
+        height: 20px;
+    }
+    .contacts{
+        top: -44%;
+    }
+    .about-me__name{
+        font-size: 52px;
+    }
+    .about-me__description{
+        font-size: 16px;
+    }
+    .header__nav-link{
+        font-size: 16px;
+    }
+    nav{
+        width: 45%;
+    }
+    .footer__wrapper-nav{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .logo__img{
+        height: 45px;
+    }
+    .header__nav-link{
+        font-size: 15px;
+    }
+    .social-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .about-me__name{
+        font-size: 50px;
+    }
+    .about-me__description{
+        font-size: 15px;
+    }
+    footer{
+        padding-top: 14%;
+    }
+    .footer__about-project{
+        width: 30%;
+    }
+    .projects{
+        margin-bottom: 20%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .logo__img{
+        height: 40px;
+    }
+    .header__nav-link{
+        font-size: 14px;
+    }
+    nav{
+        width: 50%;
+    }
+    .about-me__description{
+        font-size: 14px;
+        width: 70%;
+    }
+    .skill__name{
+        font-size: 17px;
+    }
+    .skills__title{
+        font-size: 50px;
+    }
+    .contacts__text-form{
+        height: 230px;
+    }
+}
+
