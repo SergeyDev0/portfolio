@@ -69,6 +69,22 @@
     .skill__number{
         font-size: 22px;
     }
+    .contacts__form-input{
+        height: 31%;
+        margin-top: 8%;
+    }
+    .contacts__form{
+        width: 26%;
+    }
+    .contacts__text-form{
+        width: 68%;
+    }
+    .contacts__title-text{
+        font-size: 45px;
+    }
+    .contacts__description{
+        font-size: 21px;
+    }
 }
 @media screen and (min-width: 1900px) {
     .project-title{
@@ -164,21 +180,12 @@
     nav{
         width: 50%;
     }
-    .about-me__description{
-        font-size: 14px;
-        width: 70%;
-    }
     .skill__name{
         font-size: 17px;
-    }
-    .skills__title{
-        font-size: 50px;
     }
     .contacts__text-form{
         height: 230px;
     }
-}
-@media screen and (max-width: 1024px) {
     .about-me__description{
         font-size: 14px;
         width: 75%;
