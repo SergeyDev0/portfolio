@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
-html, body{
+body{
     height: 100%;
 }
 body{
@@ -312,6 +312,8 @@ a{
     color: rgb(238, 238, 238);
     margin-top: 10%;
     padding: 2px;
+    color: #6b6b6b;
+    text-indent: 4%;
 }
 .contacts__form-input:nth-child(2){
     margin-top: 7%;
@@ -339,6 +341,7 @@ a{
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    cursor: pointer;
 }
 .contacts__wrapper-button{
     display: flex;
@@ -412,3 +415,42 @@ footer{
     justify-content: space-between;
     width: 100%;
 }
+
+
+/* CSS aniamtion */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .typing-demo__skills {
+    width: 6ch;
+    animation: typing 2.2s steps(9), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    -webkit-animation: typing 2.2s steps(9), blink .5s step-end infinite alternate;
+} 
+  .typing-demo {
+    width: 9ch;
+    animation: typing 2.2s steps(9), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    -webkit-animation: typing 2.2s steps(9), blink .5s step-end infinite alternate;
+}
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

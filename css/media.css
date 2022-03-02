@@ -49,6 +49,7 @@
 @media screen and (min-width: 1800px) {
     .about-me__name{
         font-size: 70px;
+        margin-top: 2%;
     }
     .about-me__description{
         font-size: 20px;
@@ -74,7 +75,7 @@
         font-size: 32px;
     }
     .project-description{
-        font-size: 20px;
+        font-size: 22px;
     }
     .project-link{
         font-size: 30px;
@@ -87,6 +88,9 @@
         font-size: 22px;
     }
     .footer__nav-link{
+        font-size: 22px;
+    }
+    .about-me__description{
         font-size: 22px;
     }
 }
@@ -105,7 +109,7 @@
         height: 20px;
     }
     .contacts{
-        top: -44%;
+        top: -42%;
     }
     .about-me__name{
         font-size: 52px;
@@ -123,7 +127,7 @@
         width: 80%;
     }
 }
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1200px) {
     .logo__img{
         height: 45px;
     }
@@ -174,4 +178,65 @@
         height: 230px;
     }
 }
-
+@media screen and (max-width: 1024px) {
+    .about-me__description{
+        font-size: 14px;
+        width: 75%;
+    }
+    .about-me__name{
+        font-size: 46px;
+        margin-top: 2%;
+    }
+    .skills__title{
+        font-size: 44px;
+    }
+    .project-title{
+        font-size: 24px;
+    }
+    .project-description{
+        font-size: 14.5px;
+    }
+    .title-text{
+        font-size: 36px;
+    }
+    .contacts__text-form{
+        width: 67%;
+        height: 200px;
+    }
+    .contacts__wrapper-form{
+        height: 200px;
+    }
+    .contacts{
+        left: 3%;
+        right: 3%;
+        top: -36%;
+    }
+    .skills__icon{
+        top: 5%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header__nav-link{
+        font-size: 13px;
+    }
+    .logo{
+        width: 35px;
+        height: 35px;
+    }
+    .social-icon{
+        width: 30px;
+        height: 30px;
+    }
+    .about-me__description{
+        width: 80%;
+    }
+    .about-me__name{
+        margin-bottom: 2%;
+    }
+    .skills__title{
+        font-size: 42px;
+    }
+    .title-text{
+        font-size: 36px;
+    }
+}
