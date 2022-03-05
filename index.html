@@ -11,9 +11,34 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <a href="" class="logo">
-            <img src="./img/logo.jpeg" class="logo__img" alt="logo">
+    <header class="header-mobile">
+        <div class="container" id="canvas-basic">
+
+            <!-- Этот чекбокс даст нам поведение переключателя, 
+             он будет скрыт, но работать -->
+            <input id="toggle" type="checkbox">
+            <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении 
+             состояния чекбокса, является «братским» элементом для чекбокса -->
+            <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+            <label class="toggle-container" for="toggle">
+            <!-- Если меню открыто, то здесь будет иконка «X», 
+             в противном случае просто иконка гамбургера -->
+                <span class="button button-toggle"></span>
+            </label>
+            <!-- Навигация -->
+            <nav class="nav">
+                <a class="nav-item" href="#AboutMe">Управление</a>
+                <a class="nav-item" href="#Skills">История</a>
+                <a class="nav-item" href="#MyProjects">Статистика</a>
+                <a class="nav-item" href="#Contacts">Настройки</a>
+            </nav>
+        <a href="#" class="logo">
+            <img src="./img/logo-1.svg" class="logo__img" alt="logo">
+        </a>
+    </header>
+    <header class="header-desktop">
+        <a href="#" class="logo">
+            <img src="./img/logo-1.svg" class="logo__img" alt="logo">
         </a>
         <nav class="header__nav">
             <div class="footer__wrapper-nav">
@@ -41,6 +66,7 @@
         <div class="about-me__wrapper-img">
             <img src="./img/avatar.webp" alt="avatar" class="about-me__img">
         </div>
+        <img class="down-arrow" src="./icons/down-arrow.svg" alt="down-arrow">
     </section>
     <section class="skills" id="Skills">
         <h2 class="skills__title">Навыки</h2>
@@ -108,20 +134,10 @@
         <h2 class="title-text" id="MyProjects">Мои проекты</h2>
         <div class="project-item">
             <div class="project-img">
-                <img src="./img/ChatDesktop.png" class="project__item-img" alt="project-img">
-            </div>
-            <div class="project-about blue_l">
-                <h2 class="project-title" style="color: #4759C2;">Desktop Messenger</h2>
-                <p class="project-description"><span class="name-project">Desktop Messenger</span> - Прототип мессенджера. Можно поскроллить списки или чат. В будущем буду добавлять что-то типа настроек, возможность нажать на что-то ещё. В общем будет интереснее =)</p>
-                <a class="project-link" href="https://makarkapar.github.io/ChatDesktop/" target="_blank">view project</a>
-            </div>
-        </div>
-        <div class="project-item">
-            <div class="project-img">
                 <img src="./img/Marico.png" class="project__item-img" alt="project-img">
             </div>
             <div class="project-about black_l">
-                <h2 class="project-title" style="color: #BB5D5D;">Marico</h2>
+                <h2 class="project-title" style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #BB5D5D;">Marico</h2>
                 <p class="project-description"><span class="name-project">Marico</span> - "Превратите свою аудиторию в подписчиков электронной почты и текстовых сообщений". Инструмент для охватывания и вовлекания своей аудитории, непосредственно через электронную почту и текстовых сообщений.</p>
                 <a class="project-link" href="https://makarkapar.github.io/Marico/" target="_blank">view project</a>
                 <div style="width: 100%; height: 4 px; background-color: #192152;"></div>
@@ -129,10 +145,20 @@
         </div>
         <div class="project-item">
             <div class="project-img">
+                <img src="./img/ChatDesktop.png" class="project__item-img" alt="project-img">
+            </div>
+            <div class="project-about blue_l">
+                <h2 class="project-title" style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #000;">Desktop Messenger</h2>
+                <p class="project-description"><span class="name-project">Desktop Messenger</span> - Прототип мессенджера. Можно поскроллить списки или чат. В будущем буду добавлять что-то типа настроек, возможность нажать на что-то ещё. В общем будет интереснее =)</p>
+                <a class="project-link" href="https://makarkapar.github.io/ChatDesktop/" target="_blank">view project</a>
+            </div>
+        </div>
+        <div class="project-item">
+            <div class="project-img">
                 <img src="./img/Artificial-intelligence.png" class="project__item-img" alt="project-img">
             </div>
             <div class="project-about darkblue_l">
-                <h2 class="project-title" style="color: #192152;">Artificial Intelligence</h2>
+                <h2 class="project-title" style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #192152;">Artificial Intelligence</h2>
                 <p class="project-description"><span class="name-project">Artificial Intelligence</span class="name-project"> - Сайт о Искуственном Интеллекте, ничего особенного, работа была из первых моих проектов, даже слайдер не работает) В прочем сама работа не плохая, я не стыжусь за неё.</p>
                 <a class="project-link" href="https://makarkapar.github.io/Artificial-intelligence/" target="_blank">view project</a>
             </div>
