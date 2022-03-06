@@ -351,6 +351,8 @@
         justify-content: flex-end;
         position: relative;
         margin: 0;
+        box-shadow: 0 0 3px 0 #000;
+        
     }
     .container {
         position: relative;
@@ -560,10 +562,9 @@
         content: '';
         top: 50%;
         left: 0;
-        width: 100%;
-        border: 3px solid;
-        border-image-source: linear-gradient(180deg, #FB7B70 30%, rgba(255, 22, 7, 0.560185) 17.71%, rgba(115, 32, 129, 0.541667) 36.46%, rgba(68, 24, 160, 0.46) 49.48%);
-        border-image-width: 100%;
+        width: 20px;
+        height: 4px;
+        background: linear-gradient(#FB7B70 0%, #75C9BA 100%);
         transform: translateY(-50%) scaleY(5);
         transition: 0.5s;
     }

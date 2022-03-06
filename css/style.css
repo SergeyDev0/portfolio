@@ -87,6 +87,17 @@ a{
     text-align: center;
     color: #282d38;
 }
+.name-animation{
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    cursor: default;
+}
+.name-animation:hover{
+    color: #741CFF;
+}
 .about-me__description{
     text-align: center;
     color: #4c556a;
