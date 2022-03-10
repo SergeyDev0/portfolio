@@ -9,6 +9,9 @@
     .mobile{
         display: none;
     }
+    .about-me__description__mobile{
+        display: none;
+    }
 }
 @media screen and (min-width: 1400px) {
     .project-title{
@@ -339,26 +342,7 @@
 
 
 /* MOBILE */
-
 @media screen and (max-width: 425px) {
-    .desktop{
-        display: none;
-    }
-    .header-desktop{
-        display: none;
-    }
-    .logo{
-        width: auto;
-        position: absolute;
-        top: 15px;
-        right: 25px;
-    }
-    header{
-        justify-content: flex-end;
-        position: relative;
-        margin: -1% 0;
-        box-shadow: 0 0 3px 0 #000;
-    }
     .container {
         position: relative;
         width: 100vw;
@@ -655,5 +639,80 @@
         right: 0;
         background-color: #958C6B;
     }
-
+}
+@media screen and (max-width: 425px) {
+    .desktop{
+        display: none;
+    }
+    .header-desktop{
+        display: none;
+    }
+    .logo{
+        width: auto;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+    header{
+        justify-content: flex-end;
+        position: relative;
+        margin: -1% 0;
+        box-shadow: 0 0 3px 0 #000;
+    }
+    .about-me__name{
+        font-size: 30px;
+    }
+    .wrapper{
+        margin-top: 6%;
+    }
+    .about-me__description{
+        display: none;
+    }
+    .about-me__description__mobile{
+        text-align: center;
+        color: #4c556a;
+        font-size: 18px;
+        width: 90%;
+        margin: 6% auto;
+        line-height: 1.4;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+    }
+    .about-me{
+        height: auto;
+    }
+    .down-arrow{
+        display: none;
+    }
+    .skills__title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .skill__name{
+        font-size: 12px;
+    }
+    .skill__number{
+        font-size: 12px;
+    }
+    .skills{
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .skills__card{
+        gap: 5% 6%;
+        width: 95%;
+    }
+    .skill__line-active{
+        background-color: #57CE55;
+    }
+    .skill__line{
+        background-color: #666666;
+        width: 100%;
+    }
+    .skills__icon{
+        left: 2%;
+    }
 }

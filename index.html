@@ -74,6 +74,9 @@
         <p class="about-me__description">
             Я фронтенд-разработчик с опытом и страстью к кодированию и воплощению ТЗ в реальность :) <br> У меня большая любовь к проектам с большими задачами. Кроме того, я спокойный человек и вписываюсь в любую команду. Я работаю удаленно и экономлю ваш бюджет на своем рабочем месте.<br>Итак, если у вас сложная задача, вы нашли подходящего человека.
         </p>
+        <p class="about-me__description__mobile">
+            Я фронтенд-разработчик с опытом и страстью к кодированию и воплощению ТЗ в реальность. Итак, если у вас сложная задача, вы нашли подходящего человека.
+        </p>
         <div class="about-me__wrapper-img desktop">
             <img src="./img/avatar.webp" alt="avatar" class="about-me__img">
         </div>
@@ -207,15 +210,10 @@
             </div>
         </div>
     </footer>
+    <a class="back_to_top" title="Наверх"></a>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $('a[href*="#"]').on('click', function (e) {
-            e.preventDefault();
-            
-            $('html, body').animate({
-              scrollTop: $($(this).attr('href')).offset().top
-            }, 400, 'linear');
-        });
-    </script>
+    <script src="./js/slow-down.js"></script>
+    <script src="./js/upTop.js"></script>
 </body>
 </html>
