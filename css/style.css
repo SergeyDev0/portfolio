@@ -258,6 +258,10 @@ a{
 .name-project, .project-title{
     font-family: 'Laila', sans-serif;
 }
+.project-title{
+    -webkit-text-stroke-width: 1px;
+    color: white;
+}
 .project-link{
     position: relative;
     color: #273aa7;
